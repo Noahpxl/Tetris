@@ -77,7 +77,7 @@ static void MX_I2C1_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 void init() {
-	ssd1306_TestAll();
+	ssd1306_RunTetris();
 }
 /* USER CODE END 0 */
 
