@@ -63,12 +63,9 @@ int Piramide(uint8_t x, uint8_t y)
 	ssd1306_DrawSquare(x+6,y-12);
 }
 
-int GetRandomShape(uint8_t x, uint8_t y)
+
+int GetShape(uint8_t x, uint8_t y, uint8_t Getal)
 {
-	srand(time(0));
-    uint8_t Getal = (rand() % 7) +1;
-
-
     switch (Getal)
     {
         case 1:

@@ -14,4 +14,5 @@ int Z(uint8_t x, uint8_t y);
 int LMirrored(uint8_t x, uint8_t y);
 int ZMirrored(uint8_t x, uint8_t y);
 int Piramide(uint8_t x, uint8_t y);
-int GetRandomShape(uint8_t x, uint8_t y);
+int GetRandomNumber();
+int GetShape(uint8_t x, uint8_t y, uint8_t Getal);
