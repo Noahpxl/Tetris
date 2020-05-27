@@ -8,9 +8,7 @@
 #ifndef INC_SSD1306_TEST_H_
 #define INC_SSD1306_TEST_H_
 
-void ssd1306_TestBorder();
-void ssd1306_TestFonts();
-void ssd1306_TestFPS();
-void ssd1306_TestAll();
+void ssd1306_RunTetris();
+
 
 #endif /* INC_SSD1306_TEST_H_ */
