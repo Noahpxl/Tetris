@@ -99,6 +99,7 @@ char ssd1306_WriteChar(char ch, FontDef Font, SSD1306_COLOR color);
 char ssd1306_WriteString(char* str, FontDef Font, SSD1306_COLOR color);
 void ssd1306_SetCursor(uint8_t x, uint8_t y);
 void ssd1306_DrawSquare(uint8_t x, uint8_t y);
+void ssd1306_DrawSquareBig(uint8_t x, uint8_t y);
 
 // Low-level procedures
 void ssd1306_Reset(void);
