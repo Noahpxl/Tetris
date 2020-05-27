@@ -140,6 +140,7 @@ int main(void)
   }
   /* USER CODE END 3 */
 }
+/* geeft een pseudo-random nummer op basis van de adcValue gemeten door de stm*/
 int GetRandomNumber()
 {
 	adcValue = (adcValue%7)+1;

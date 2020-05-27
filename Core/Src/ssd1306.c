@@ -261,5 +261,16 @@ void ssd1306_DrawSquare(uint8_t x, uint8_t y){
 		 ssd1306_DrawPixel((x + j), (y + i), Black);
 	 	 }
 	 }
+}
+void ssd1306_DrawSquareBig(uint8_t x, uint8_t y){
+
+	 	 ssd1306_SetCursor(x,y);
+	 	 for (uint32_t j=0; j<x; j++)
+	 	 {
+	 		 for (uint32_t i=0; i<y; i++)
+	 		 {
+	 		 ssd1306_DrawPixel((j), (i), White);
+	 	 	 }
+	 	 }
 
 }
